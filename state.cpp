@@ -131,7 +131,6 @@ int State::h2()
         i = next[i];
     }
 
-    h = nbBlocs - last_stack.size();
     int nbBlocs_corrects = 0;
     vector<int>::reverse_iterator rit = last_stack.rbegin();
     for(rit ; rit!=last_stack.rend(); ++rit)
